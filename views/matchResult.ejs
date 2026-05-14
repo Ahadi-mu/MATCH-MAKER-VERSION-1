@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATCH RESULT</title>
+</head>
+<body>
+    <h1><%= person1 %> and <%= person2 %> have a <%= score %>% match score</h1> 
+     
+    <% if (score>80) { %>
+        <p>🔥 It is a Perfect Match!</p>
+    <% } else if (score >50) { %>
+         <p>😊It is  a good match!</p>
+    <% } else { %>
+         <p>😬It is not a great match!</p>
+    <% } %>
+
+
+
+</body>
+</html>
